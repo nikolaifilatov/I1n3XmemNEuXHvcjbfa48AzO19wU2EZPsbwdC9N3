@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta charset="utf-8"/>
+    <meta name="description" content="Большие подушки для диванов и кресел.">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700%7COpen+Sans:300&amp;subset=cyrillic,cyrillic-ext"
+        rel="stylesheet">
+    <link href="css.css" rel="stylesheet" type="text/css" />
+    <title>Подушка</title>
+</head>
+<body>
+<div class="wrapper">
+    <main class="main">
+        <div class="content">
+            <h2>Цена</h2>
+            <p>
+                Стоимость изготовления подушек зависит от нескольких параметров. В калькуляторе ниже можно рассчитать
+                стоимость подушки самостоятельно. Выберите нужные размеры, обивочный материал и необходимые опции.
+            </p>
+            <img src="razmeri2.jpg" alt="размеры" class="  content_text_img">
+            <div class="calculator" id="calculator">
+                    <div class="select13" id="selectWidth"></div>
+                    <div class="select13" id="selectHeigth"></div>
+                    <div class="select13" id="selectThickness"></div>
+
+                    <div class="select13" id="selectFoam"></div>
+                    <div class="select13" id="selectFix"></div>
+                    <div class="select13" id="selectTrim" style="display:none"></div>
+                    <div class="select13" id="selectButton"></div>
+                    <div class="select13" id="selectFabrick"></div>
+                    <div class="select13" id="selectColor" style="display:none"></div>
+                    
+                    <div class="select13" id="selectCount"></div>
+                    <div class="select13">
+                        <span>Цена</span>
+                        <div style="text-align: right;"><label id="cost">10000</label></div>
+                    </div>
+                    <div id="addToOrder" class="select13">
+                        <button id="buttonAddToOrder" class="lightBluePillowButton">Добавить в заказ</button>
+                    </div>
+                    <div id="divOrderCost" class="select13">
+                        <span>Стоимость заказа</span>
+                        <div style="text-align: right;"><label data-value="0" id="totalCost">0р.</label></div>
+                    </div>
+                </div>
+        </div>
+    </main>    
+    <div class="divOrderListMain">
+</div>
+</div>
+<script src="menu2022.js"></script>
+<script src="db2.js"></script>
+<script src="pillows2.js"></script>
+<script src="madagaskar2.js"></script>
+</body>
+</html>

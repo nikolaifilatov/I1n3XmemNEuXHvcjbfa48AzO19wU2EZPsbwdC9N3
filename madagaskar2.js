@@ -1,4 +1,4 @@
-const page = 'none';
+const page = 'madagaskar';
 const aq = page == 'aquarelle' ? true : false;
 
 
